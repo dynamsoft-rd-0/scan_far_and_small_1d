@@ -32,6 +32,7 @@
         "bfs2-distant"
       ],
       "BarcodeFormatIds": ["BF_CODE_39_EXTENDED"],
+      "ExpectedBarcodesCount": 1,
       "Name": "task-read-barcodes-distant",
       "SectionArray": [
         {
