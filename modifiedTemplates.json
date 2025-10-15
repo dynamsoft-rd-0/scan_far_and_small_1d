@@ -31,6 +31,7 @@
         "bfs1-distant",
         "bfs2-distant"
       ],
+      "BarcodeFormatIds": ["BF_CODE_39_EXTENDED"],
       "Name": "task-read-barcodes-distant",
       "SectionArray": [
         {
@@ -51,8 +52,7 @@
                 {
                   "Mode": "LM_CONNECTED_BLOCKS",
                   "ModelNameArray": [
-                    "OneDLocalization",
-                    "DataMatrixQRCodeLocalization"
+                    "OneDLocalization"
                   ]
                 },
                 {
@@ -86,13 +86,6 @@
                 },
                 {
                   "Mode": "DM_THRESHOLD_BINARIZATION"
-                },
-                {
-                  "Mode": "DM_NEURAL_NETWORK",
-                  "ModelNameArray": [
-                    "Code128Decoder",
-                    "EAN13Decoder"
-                  ]
                 },
                 {
                   "Mode": "DM_DEEP_ANALYSIS"
