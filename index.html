@@ -82,6 +82,7 @@
         cameraEnhancer.on("played", () => {
           const capabilities = cameraEnhancer.getCapabilities();
           let maxZoom = capabilities?.zoom?.max;
+          alert('max zoom available'+maxZoom);
           if(maxZoom) {
             // limit max zoom to 10x baseline
             let minZoom = capabilities?.zoom?.min || 1;
