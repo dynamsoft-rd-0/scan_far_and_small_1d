@@ -55,9 +55,6 @@
                   "ModelNameArray": [
                     "OneDLocalization"
                   ]
-                },
-                {
-                  "Mode": "LM_LINES"
                 }
               ],
               "Stage": "SST_LOCALIZE_CANDIDATE_BARCODES"
